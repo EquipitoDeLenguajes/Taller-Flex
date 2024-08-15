@@ -10,7 +10,7 @@ NUMBER [0-9]+([,.][0-9]+)?
 "/" {printf("262 \n");}
 \| {printf("263\n");}
 \n {printf("264 fin de la linea\n");}
-. {printf("Entrada no reconocida")}
+. {printf("Entrada no reconocida");}
 
 %%
 
